@@ -95,12 +95,18 @@ body{
   
   /* Media Queries */
   
-  @media (max-width: 1028px) {
+ @media (max-width: 1028px) {
   
     #home h1,h3{
       text-align: center;
     }
-    .d-button{
-      margin: 5% 3% 5% 35%;
-      }
+     .testimonial-text{
+         font-size: 1rem;
+     }
+     .navbar-brand{
+         font-size: 1.2rem;
+     }
+     .test-img{
+         width: 100%;
+     }
   }
